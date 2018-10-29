@@ -1,0 +1,20 @@
+Modify parameters of prepare.sh
+
+run prepare.sh
+
+modify menuconfig in kernel folder
+
+run build.sh
+
+run package.sh
+
+START PARAMETERS FOR DSM 6.1 and DS3617xs
+
+export CC_LINUX_VERS=3.10.102
+export CC_LINUX_ARCH=Broadwell
+export CC_LINUX_ARCH_LOWER=broadwell
+export CC_DSM_VERS=6.2
+export KERNEL_LINUX_VERS=3.10
+export KERNEL_ARCH=x64
+export KERNEL_BRANCH_NUM=15152
+export MAKE_ARCH=x86_64

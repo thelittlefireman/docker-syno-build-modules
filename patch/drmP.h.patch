@@ -1,0 +1,14 @@
+diff --git a/include/drm/drmP.h b/include/drm/drmP.h
+index ed4b2fb..bccd51b 100644
+--- a/include/drm/drmP.h
++++ b/include/drm/drmP.h
+@@ -920,6 +920,9 @@ void drm_clflush_virt_range(void *addr, unsigned long length);
+  * DMA quiscent + idle. DMA quiescent usually requires the hardware lock.
+  */
+ 
++extern int drm_vblank_get(struct drm_device *dev, unsigned int pipe);
++extern void drm_vblank_put(struct drm_device *dev, unsigned int pipe);
++
+ /* Modesetting support */
+ extern void drm_vblank_pre_modeset(struct drm_device *dev, unsigned int pipe);
+ extern void drm_vblank_post_modeset(struct drm_device *dev, unsigned int pipe);

@@ -1,7 +1,7 @@
 FROM debian:jessie
 
 # --- FIXED VARS ---
-ARG runtime_deps="wget build-essential bc libncurses5-dev apt-utils"
+ARG runtime_deps="git wget build-essential bc libncurses5-dev apt-utils"
 
 # --- INSTALL DEPS ---
 RUN apt-get update && \

@@ -1,0 +1,12 @@
+diff --git a/drivers/gpu/drm/amd/amdgpu/amdgpu_drv.c b/drivers/gpu/drm/amd/amdgpu/amdgpu_drv.c
+index 3221365..6b9d9e6 100644
+--- a/drivers/gpu/drm/amd/amdgpu/amdgpu_drv.c
++++ b/drivers/gpu/drm/amd/amdgpu/amdgpu_drv.c
+@@ -32,6 +32,7 @@
+ #include <drm/drmP.h>
+ #include <drm/amdgpu_drm.h>
+ #include <drm/drm_gem.h>
++#include <drm/drm_fb_helper.h>
+ #include "amdgpu_drv.h"
+ 
+ #include <drm/drm_pciids.h>

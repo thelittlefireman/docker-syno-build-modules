@@ -18,3 +18,9 @@ export KERNEL_LINUX_VERS=3.10
 export KERNEL_ARCH=x64
 export KERNEL_BRANCH_NUM=15152
 export MAKE_ARCH=x86_64
+
+HELP
+Linux 4.4.59
+https://elixir.bootlin.com/linux/v4.4.162/source/drivers/gpu/drm/amd/amdgpu/amdgpu_cs.c#L144
+AMD
+https://wiki.gentoo.org/wiki/AMDGPU-PRO

@@ -10,6 +10,7 @@ docker rm syno_build || true
 
 docker run -d -t --name=syno_build \
 -v ${PWD}/kernel:/opt/kernel \
+-v ${PWD}/patch:/opt/patch \
 -e CC_LINUX_VERS=$CC_LINUX_VERS \
 -e CC_LINUX_ARCH=$CC_LINUX_ARCH \
 -e CC_LINUX_ARCH_LOWER=$CC_LINUX_ARCH_LOWER \
